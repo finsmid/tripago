@@ -18,7 +18,7 @@ export default function TripList() {
   console.log(trips);
   return (
     <div className="trip-list">
-      <h1>Tripssss</h1>
+      <h1>Tripssss__</h1>
       <ul>
         {trips.map((trip) => (
           <li key={trip.id}>
